@@ -1,20 +1,23 @@
-# Github Pages Template
+#Penniless
+________
 
-______________
+Nobody likes them, and as a US Taxpayer you are paying twice for every penny you touch since it cost 1.7 cents to manufacture(in 2016).
 
-Code@[github.com/Viruliant/gh-template](http://github.com/Viruliant/gh-template)  
-Demo@[viruliant.github.io/gh-template](http://viruliant.github.io/gh-template)
+You or anyone you work with never has to touch a penny again, here are your equations:
 
-This is a template to allow you to do almost anything, including on your own server. Just use [NodeJS](http://nodejs.org/) and the included `gh-template-node.js` file
+SmartDenom = (MinDenom * (1 / (1 + TAX_RATE)))  
+FinalPrice = (1 + TAX_RATE) * (ceil(MinPrice / SmartDenom) * SmartDenom)  
+ActualPriceCharged = FinalPrice/(1 + TAX_RATE)  
+Taxes = TAX_RATE*(FinalPrice/(1 + TAX_RATE))
 
-The built in Github markdown displayer won't allow stuff like:
+These work in all situations were flat tax rates are charged.
+___
 
-* embed mathjax code like this:
-$$$e^x =\lim_{n\to\infty}\left(1+\frac{x}{n}\right)^{n} = \sum_{n=0}^{\infty} \left( \frac{x^n}{n!} \right) = \frac{x^n}{0!} + \frac{x^n}{1!} + \frac{x^n}{2!} + \frac{x^n}{3!} + \text{⋅ ⋅ ⋅}$$$
-* embed youtube videos like this:
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src=
-"//www.youtube.com/embed/vtLLdtBQBoI?list=PLjgrsP5Vg40lWLyr1whakzuDsmGW0el0y&loop=1&autoplay=1"
-frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-* [SVG Parameters](http://www.w3.org/TR/SVGParamPrimer) code like this:
-<object type="image/svg+xml" data="gh-pages-rsrcs/map.svg?x=320&y=290"></object>
+#e.g. exempli gratia
 
+In order to touch nothing smaller than a nickel = 0.05 in Texas with a tax rate of 8.25% or .0825  
+The **FinalPrice** you show your customers **AFTER taxes** is **EXACTLY** $1.55 = 1.0825 * (ceil(1.40/0.04619) * 0.04619), on an item that you charge a minimum of $1.40 for. Where 0.04619 = SmartDenom
+
+And when you are asked about why taxes aren't being payed on your items, you show them that the ActualPriceCharged is 1.43187=(1.55/1.0825) for the item. And you have the remaining Taxes $0.11813=.0825⋅(1.55/1.0825) ready to give to the state.
+
+<object type="image/png" data="Pennt2012.png"></object>
