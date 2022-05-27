@@ -1,4 +1,4 @@
-#Penniless
+#A Penny For Your Thoughts
 ________
 
 Nobody likes them, and as a US Taxpayer you are paying twice for every penny you touch since it cost 1.7 cents to manufacture(in 2016).
