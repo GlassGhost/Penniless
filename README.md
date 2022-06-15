@@ -1,4 +1,6 @@
-#A Penny For Your Thoughts
+#A Penny From Your Thoughts
+##©Roy Pfund (CC BY-NC-SA 4.0) 2022
+https://creativecommons.org/licenses/by-nc-sa/4.0/
 ________
 
 Nobody likes them, and as a US Taxpayer you are paying twice for every penny you touch since it cost 1.7 cents to manufacture(in 2016).
